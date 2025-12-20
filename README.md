@@ -3,7 +3,7 @@
 A modern, high-performance **frontend developer portfolio** showcasing projects, skills, and UI/UX craftsmanship.  
 Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, **shadcn/ui**, and **Framer Motion**.
 
-🔗 **Live Demo:** https://your-portfolio.vercel.app  
+🔗 **Live Demo:** https://portfolio-i1jz-phi.vercel.app/  
 📄 **Resume:** https://your-portfolio.vercel.app/cv.pdf
 
 ---
