@@ -23,8 +23,8 @@ const projects: Project[] = [
     description: 'A robust e-commerce platform built with ASP.NET Core and SQL Server, featuring secure identity management, complex product querying, and a high-performance C# backend.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop',
     tags: ['ASP.NET Core', 'C#', 'SQL Server', 'Entity Framework', 'React'],
-    liveUrl: 'https://github.com/your-username/your-repo', // Update with your actual links
-    githubUrl: 'https://github.com/your-username/your-repo',
+    liveUrl: 'https://github.com/TekNanya/Emart', 
+    githubUrl: 'https://github.com/TekNanya/Emart',
     featured: true,
   },
   {
