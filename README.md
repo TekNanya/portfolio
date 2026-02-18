@@ -4,7 +4,7 @@ A modern, high-performance **frontend developer portfolio** showcasing projects,
 Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, **shadcn/ui**, and **Framer Motion**.
 
 🔗 **Live Demo:** https://portfolio-i1jz-phi.vercel.app/  
-📄 **Resume:** https://your-portfolio.vercel.app/cv.pdf
+📄 **Resume:** https://portfolio-i1jz-phi.vercel.app/cv.pdf
 
 ---
 
@@ -177,10 +177,10 @@ MIT License — feel free to fork and customize.
 **Belonwu Chidumebi**
 Frontend Developer (React / TypeScript)
 
-* 🌐 Portfolio: [https://your-portfolio.vercel.app](https://your-portfolio.vercel.app)
-* 💼 GitHub: [https://github.com/your-username](https://github.com/your-username)
-* 📧 Email: [your.email@example.com](mailto:your.email@example.com)
-* 🔗 LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+* 🌐 Portfolio: [https://portfolio-i1jz-phi.vercel.app/ ](https://portfolio-i1jz-phi.vercel.app/ )
+* 💼 GitHub: [https://github.com/TekNanya](https://github.com/TekNanya)
+* 📧 Email: [nanyatech01@gmail.com](mailto:nanyatech01@gmail.com)
+* 🔗 LinkedIn: [www.linkedin.com/in/chidumebi-belonwu-bab43a3a1](www.linkedin.com/in/chidumebi-belonwu-bab43a3a1)
 
 ---
 
