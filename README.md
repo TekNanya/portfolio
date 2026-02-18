@@ -91,7 +91,7 @@ src/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/TekNanya/portfolio.git
 cd portfolio
 ````
 
