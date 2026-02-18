@@ -18,6 +18,16 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 5,
+    title: 'Enterprise E-Commerce System',
+    description: 'A robust e-commerce platform built with ASP.NET Core and SQL Server, featuring secure identity management, complex product querying, and a high-performance C# backend.',
+    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop',
+    tags: ['ASP.NET Core', 'C#', 'SQL Server', 'Entity Framework', 'React'],
+    liveUrl: 'https://github.com/your-username/your-repo', // Update with your actual links
+    githubUrl: 'https://github.com/your-username/your-repo',
+    featured: true,
+  },
+  {
     id: 1,
     title: 'CloudSync Dashboard',
     description: 'A modern SaaS dashboard for managing cloud infrastructure with real-time monitoring, automated deployments, and team collaboration features.',
@@ -73,12 +83,10 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
         !isEven ? 'lg:flex-row-reverse' : ''
       }`}
     >
-      {/* Device mockup */}
       <div className={`${!isEven ? 'lg:order-2' : ''}`}>
         <DeviceMockup image={project.image} alt={project.title} />
       </div>
 
-      {/* Project info */}
       <div className={`${!isEven ? 'lg:order-1' : ''}`}>
         {project.featured && (
           <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20 border-0">
@@ -90,7 +98,6 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
           {project.description}
         </p>
 
-        {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-6">
           {project.tags.map((tag) => (
             <span
@@ -102,7 +109,6 @@ const ProjectCard = ({ project, index }: { project: Project; index: number }) =>
           ))}
         </div>
 
-        {/* Links */}
         <div className="flex gap-4">
           <Button asChild className="gradient-primary text-primary-foreground hover:opacity-90">
             <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
@@ -126,7 +132,6 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-background">
       <div className="container px-6">
-        {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -146,9 +151,9 @@ export const Projects = () => {
           </p>
         </motion.div>
 
-        {/* Projects list */}
         <div className="max-w-6xl mx-auto space-y-24">
-          {projects.slice(0, 4).map((project, index) => (
+          {/* Removed .slice(0, 4) to show all projects including the new one */}
+          {projects.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
         </div>
