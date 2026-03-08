@@ -70,7 +70,7 @@ export const Navbar = () => {
               className="gradient-primary text-primary-foreground hover:opacity-90"
               asChild
             >
-              <a href="/cv.pdf" download>
+              <a href="/CURRICULUM VITAE.pdf" download>
                 <Download className="w-4 h-4 mr-2" />
                 Resume
               </a>
